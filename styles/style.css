@@ -1,0 +1,178 @@
+* {
+	/*outline: red solid 1px;*/
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: auto;
+	background: #004E8E;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerItem {
+	color: #ffffff;
+	font-size: 12px;
+	padding: 2px;
+	flex-grow: 1;
+	text-align: center;
+	/*float: left;*/
+}
+
+.intro {
+	max-width: 300px;
+}
+
+.address, .phoneNumber {
+	max-width: 250px;
+}
+
+.socialWrapper {
+	max-width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+
+}
+
+.socialLinks {
+	flex-grow: 1;
+	padding: 1px;
+}
+
+.separator {
+	padding: 1px;
+}
+
+.blue {
+	color: #369DD4;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+main {
+	background-color: #005AA3;
+	width: 100%;
+	height: auto;
+}
+
+.contentWrapper {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.row {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.content {
+	width: 95%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: no-wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navLinks {
+	color: #13a2d8;
+	display: none;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.watermark {
+	background-color: #FFFFFF;
+	background-image: url('../images/watermark.png') no-repeat;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 80px;
+}
+
+.banner {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.greatStaff {
+	background: url('../images/Salt-Lake-City-Dentist-Great-Staff.png') no-repeat;
+	background-size: contain;
+	height: 360px;
+	width: 875px;
+}
+
+.staff {
+	background: url('../images/Salt-Lake-Cosmetic-Dentist-Staff.png') no-repeat;
+	background-size: contain;
+	height: 510px;
+	width: 875px;
+}
+
+.clearfix:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+}
+
+ .noDecoration {
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	color: #464646;
+ }
+
+footer {
+	width: 100%;
+	height: 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	color: #ffffff;
+	font-size: 10px;
+}
+
+/*.copyright {
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
